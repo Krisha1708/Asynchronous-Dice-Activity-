@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#winner {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.dice-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.dice {
+    width: 100px;
+    height: 100px;
+    margin: 0 20px;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.roll-button {
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.roll-button:hover {
+    background-color: #0056b3;
+}
+
+/* Colors for different dice outcomes */
+.green {
+    background-color: green;
+    color: white;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+    color: white;
+}
+
+.blue {
+    background-color: blue;
+    color: white;
+}
